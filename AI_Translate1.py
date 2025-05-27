@@ -11,7 +11,7 @@ import json
 # 嘗試從環境變數讀取 API Key，如果沒有則提示用戶輸入或直接在此處填寫
 API_KEY = os.getenv("GEMINI_API_KEY")
 if not API_KEY:
-    API_KEY = "AIzaSyA-sO5rAkaKtXWDB5d7qvHj-ZtsGlfIN2M" # <--- 如果不使用環境變數，請在此處替換你的 API Key
+    API_KEY = "API KEY" # <--- 如果不使用環境變數，請在此處替換你的 API Key
 
 # Gemini API endpoint - 已更新為 gemini-2.0-flash
 # 請確保你的 API Key 有權限使用 gemini-2.0-flash 模型
